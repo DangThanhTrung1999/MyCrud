@@ -10,18 +10,17 @@
 	crossorigin="anonymous">
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-light">
 
-	<header>
-		<nav class="navbar navbar-expand-md navbar-dark"
-			style="background-color: green">
-			
-			<ul class="navbar-nav active">
-				<li><a href="<%=request.getContextPath()%>/list"
-					class="nav-link">Users</a></li>
-			</ul>
-		</nav>
-	</header>
-	<br>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home Page</a>
+ 
+  </ul>
+
+</nav>
+<h4>Đặng Thanh Trung - 102170199</h4>
 	<div class="container col-md-5">
 		<div class="card">
 			<div class="card-body">
@@ -65,7 +64,7 @@
 						name="country">
 				</fieldset>
 
-				<button type="submit" class="btn btn-success">Save</button>
+				<button type="submit" class="btn btn-secondary">Save</button>
 				</form>
 			</div>
 		</div>
